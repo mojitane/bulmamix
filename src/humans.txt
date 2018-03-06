@@ -1,0 +1,12 @@
+# humanstxt.org/
+# TEAM
+
+  <name> -- <role> -- <social>
+
+# THANKS
+
+  <name>
+
+# TECHNOLOGY
+
+  Bulma, Laravel Mix
