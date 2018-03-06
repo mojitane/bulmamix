@@ -15,6 +15,9 @@ mix
   .options({clearConsole: false})
   .disableNotifications()
   .setPublicPath('dist/')
+  .options({
+    processCssUrls: false, // Process/optimize relative stylesheet url()'s. Set to false, if you don't want them touched.
+  })
   .js('src/js/main.js', 'dist/')
   .sass('src/scss/main.scss', 'dist/')
   .copy('src/img/', 'dist/img/')
